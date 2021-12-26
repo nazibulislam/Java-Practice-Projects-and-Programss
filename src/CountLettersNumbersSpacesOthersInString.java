@@ -19,5 +19,7 @@ public class CountLettersNumbersSpacesOthersInString {
     System.out.println("numbers = "+numbers);
     System.out.println("Spaces = "+spaces);
     System.out.println("Others = "+others);
+
+    sc.close();
   }
 }
