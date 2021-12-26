@@ -7,5 +7,6 @@ public class BinaryAddition {
     String binary1 = sc.next();
     String binary2 = sc.next();
     System.out.println("Result: "+Integer.toBinaryString(Integer.parseInt(binary1,2)+Integer.parseInt(binary2,2)));
+    sc.close();
   }
 }
