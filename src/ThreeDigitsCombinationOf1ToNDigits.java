@@ -3,6 +3,7 @@ import java.util.Scanner;
 public class ThreeDigitsCombinationOf1ToNDigits {
   public static void main(String[] args) {
     Scanner sc = new Scanner(System.in);
+    System.out.println("Enter the value of N:");
     int N = sc.nextInt();
     int numberOfCombinations = 0;
     for(int i=1; i<=N; i++){
@@ -16,5 +17,6 @@ public class ThreeDigitsCombinationOf1ToNDigits {
       }
     }
     System.out.println("Total 3 digits combination of 1 to " + N + " is = " + numberOfCombinations);
+    sc.close();
   }  
 }
