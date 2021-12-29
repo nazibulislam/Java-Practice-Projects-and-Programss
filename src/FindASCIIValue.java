@@ -5,6 +5,6 @@ public class FindASCIIValue {
     Scanner sc = new Scanner(System.in);
     System.out.println("Enter a character:");
     char c = sc.next().charAt(0);
-    System.out.println("The ASCII value of '" + c + "' is = " + (int)c);
+    System.out.println("The ASCII value of " + c + " is = " + (int)c);
   }
 }
